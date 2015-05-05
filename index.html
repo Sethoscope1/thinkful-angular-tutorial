@@ -3,10 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Thinkful Angular.js Tutorial</title>
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<h1>Thinkful Angular.js Tutorial</h1>
-		<div ng-view></div>
+
+		<!-- Main View -->
+		<main class="main" role="main">
+			<div class="wrapper">
+				<div ng-view></div>
+			</div>
+		</main>
 
 		<!-- Vendor -->
 		<script src="lib/jquery-v1.11.2.js"></script>
