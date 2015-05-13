@@ -1,4 +1,5 @@
 [
+
   {
     "from": "TicketFactory",
     "date": 1400956671914,
@@ -22,5 +23,11 @@
     "date": 1400956671914,
     "subject": "New subscription",
     "id": 74838344
+  },
+  {
+    "from": "Testing",
+    "date": 1401256671914,
+    "subject": "Wow! What's this?",
+    "id": 12345678
   }
 ]
